@@ -1,0 +1,8 @@
+s=input()
+s2=s.lower()
+a=s2.count('a')
+e=s2.count('e')
+i=s2.count('i')
+o=s2.count('o')
+u=s2.count('u')
+print(f"Number of Vowels:{a+e+i+o+u}")
